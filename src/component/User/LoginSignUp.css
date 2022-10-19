@@ -1,0 +1,61 @@
+.LoginSignUpContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+  }
+
+  .formContainer{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+ .tabContainer{
+  display: flex;
+  gap: 20px;
+ }
+
+ .defaultTab{
+  color: black;
+ }
+
+ .activeTab{
+  color: red;
+  border-bottom:1px solid red;
+  font-weight: 600;
+ }
+ .forgot {
+  font-size: 10px;
+  text-align: right;
+  color: rgb(204, 39, 39);
+  margin-top: 8px;
+ }
+ .fielAvt{
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .avatar{
+  display: none;
+ }
+ .labelAvatar{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
+  color: aliceblue;
+  margin: 0 auto;
+ }

@@ -1,0 +1,42 @@
+.banner {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.banner > h1 {
+  margin: 5vmax;
+  color: black;
+  font: 600 2.5vmax "Roboto";
+}
+
+.banner > p {
+  font: 30px "Lucida Sans";
+  color: black;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  width: 20vmax;
+  color: black;
+}
+
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
